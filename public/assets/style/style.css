@@ -10,9 +10,28 @@ section {
   width: 50px;
 }
 .jumbotron-signup {
-  top: 150px;
+  margin-top: 150px;
+  margin-bottom: 0px;
 }
-
+.content {
+  margin-top: 150px;
+}
+@media  (max-width: 1000px) {
+  .content {
+     margin-top: 50px !important; /*overwrite desktop margin*/
+  }
+}
+.intro-icons .card-docs{
+  /*overwrite card-doc styles for list items*/
+  padding: 0px;
+  box-shadow: 0 0 0 0;
+  text-align: left;
+  background-color: #F5F7F9;
+  list-style: none;
+}
+.intro-icons i {
+  margin-right: 10px;
+}
 #home-page-jumbotron {
   background-color: #F5F7F9;
 }
