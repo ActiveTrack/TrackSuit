@@ -1,0 +1,24 @@
+{
+  "name": "tracksuit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellei814/TrackSuit-1.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriellei814/TrackSuit-1/issues"
+  },
+  "homepage": "https://github.com/gabriellei814/TrackSuit-1#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10"
+  }
+}
