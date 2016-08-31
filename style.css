@@ -1,0 +1,26 @@
+section {
+    height: 800px;
+}
+.navbar-logo {
+  font-size: 1.4em;
+  margin: 5px; 
+}
+.navbar-logo img {
+  height: 50px;
+  width: 50px;
+}
+.jumbotron-signup {
+  top: 150px;
+}
+
+#home-page-jumbotron {
+  background-color: #F5F7F9;
+}
+
+.content h1{
+  color: black !important; /*override Auth0*/
+}
+
+.section-3 {
+  background-color: #F5F7F9;
+}
