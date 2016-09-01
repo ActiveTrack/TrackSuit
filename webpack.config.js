@@ -1,5 +1,5 @@
 module.exports = {
-  devtool: 'source-map', 
+  devtool: 'source-map',
   entry: [
     './public/index.js'
   ],
@@ -15,5 +15,8 @@ module.exports = {
         loader: 'babel-loader'
       }
     ]
+  },
+  devServer: {
+    contentBase: 'public'
   }
 }
