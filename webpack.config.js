@@ -1,7 +1,7 @@
 module.exports = {
   devtool: 'source-map', 
   entry: [
-    './public/index.js'
+    './public/app/app.js'
   ],
   output: {
     path: __dirname + '/public',
@@ -9,6 +9,11 @@ module.exports = {
   },
   module: {
     loaders: [
+      { test: /\.html$/,
+        loader: 'raw',
+        exclude: /public\/temp/
+      },
+      { test: /\.css/, loader: 'style!css', exclude: /public\/temp/ },
       {
         test: /\.js$/,
         exclude: /node_modules/,
